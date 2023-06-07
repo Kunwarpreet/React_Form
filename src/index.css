@@ -1,10 +1,32 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root{
+  --steps-color: #9790FF;
+  --dark-blue:#09244D;
+  --color-grey:#737373;
+}
+
+body {
+  background: #EEF5FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+input{
+  padding: 10px 0 10px 10px;
+  border-radius: 5px;
+  color: var(--color-grey);
 }
 
 code {
